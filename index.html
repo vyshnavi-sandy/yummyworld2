@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <title>yummyworld</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+ <!--Nav Bar-->
+ <nav class="navbar navbar-expand-lg bg-secondary">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold" href="#">Yummyworld</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#order">orders</a>
+        </li>
+        
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Location</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--carousal-->
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      
+      <img src="js/images/food1.jpg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="text-white">Veg items</h1>
+        <p class="text-white">Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="js/images/food2.jpg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Non Veg Items</h1>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="js/images/food3.jpg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Juices and Shakes</h1>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!--Order section-->
+
+
+<div class="container" id="order">
+  <h1 class="text-center">Order your food now...</h1>
+  <div class="row my-4">
+    <div class="col-12 col-sm-6 col-md-4">
+      <div class="card text-center border-2 border-secondary" style="width: 18rem; height: 23rem;">
+        <img src="js/images/biriyani.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Chicken Biriyani</h5>
+          <p class="card-text">yummy chicken biriyani</p>
+          <h5 class="card-title text-danger">Rs.190/-</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4">
+      <div class="card text-center border-2 border-secondary" style="width: 18rem; height: 23rem;">
+        <img src="js/images/beef.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Beef chilly</h5>
+          <p class="card-text">yummy beef chilly</p>
+          <h5 class="card-title text-danger">Rs.180/-</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 ">
+      <div class="card text-center border-2 border-secondary" style="width: 18rem; height: 23rem;">
+        <img src="js/images/fish.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fish Fry</h5>
+          <p class="card-text">yummy fish fry</p>
+          <h5 class="card-title text-danger">Rs.120/-</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row my-2">
+    <div class="col-12 col-sm-6 col-md-4">
+      
+        <div class="card text-center border-2 border-secondary" style="width: 18rem; height: 23rem;">
+          <img src="js/images/dosa.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dosa </h5>
+            <p class="card-text">yummy Dosa</p>
+            <h5 class="card-title text-danger">Rs.70/-</h5>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      
+    </div>
+    
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="card text-center border-2 border-secondary" style="width: 18rem; height: 23rem;">
+          <img src="js/images/iddly.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">iddly</h5>
+            <p class="card-text">yummy Iddly</p>
+            <h5 class="card-title text-danger">Rs.60/-</h5>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+    
+    <div class="col-12 col-sm-6 col-md-4">
+      
+        <div class="card text-center border-2 border-secondary" style="width: 18rem; height: 23rem;">
+          <img src="js/images/appam.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Appam</h5>
+            <p class="card-text">yummy Appam</p>
+            <h5 class="card-title text-danger">Rs.10/-</h5>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+    
+  </div>
+</div>
+
+<!--Footer-->
+<div class="container-fluid bg-warning">
+  <div class="row">
+    <h1>Location</h1>
+    <div class="col-6">
+    <h1 class="text-white">Yummyworld restaurant</h1>
+    <h4>Kochi</h4>
+    <h4>Kerala</h4>
+    <p>9898989878</p>
+    <p>Email: yummyworld@gmail.com</p>
+    <p>Website: www.yummyworld.com</p>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252543.78341104093!2d76.78442284305349!3d8.499708038239067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbb805bbcd47%3A0x15439fab5c5c81cb!2sThiruvananthapuram%2C%20Kerala!5e0!3m2!1sen!2sin!4v1672624495921!5m2!1sen!2sin" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+</div>
+  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="/js/bootstrap.js"></script>
+</body>
+</html>
